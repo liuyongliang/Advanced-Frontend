@@ -38,6 +38,7 @@
     * chrome插件
 * 源码分析
     * vue源码
+    * react源码
 * 项目管理
 * 面试
 * 社区/会议
@@ -85,3 +86,7 @@
 * [《vue源码分析》](https://github.com/answershuto/learnVue)
 
 * [《前端路由简介以及 vue-router 实现原理》](https://juejin.cn/post/6844903615283363848)
+
+### react源码
+
+* [《React技术揭秘》](https://react.iamkasong.com/)
