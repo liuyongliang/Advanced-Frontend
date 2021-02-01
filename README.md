@@ -54,7 +54,7 @@
 
 * [《从头开始，彻底理解服务端渲染原理》](https://blog.csdn.net/qq_29438877/article/details/98477160)
 
-* [精读前后端渲染之争](https://github.com/dt-fe/weekly/blob/v2/003.%E7%B2%BE%E8%AF%BB%E5%89%8D%E5%90%8E%E7%AB%AF%E6%B8%B2%E6%9F%93%E4%B9%8B%E4%BA%89.md)
+* [《精读前后端渲染之争》](https://github.com/dt-fe/weekly/blob/v2/003.%E7%B2%BE%E8%AF%BB%E5%89%8D%E5%90%8E%E7%AB%AF%E6%B8%B2%E6%9F%93%E4%B9%8B%E4%BA%89.md)
  
 ### SSR框架
 * [《Vue.js 服务器端渲染指南》](https://ssr.vuejs.org/zh/)   
@@ -70,7 +70,7 @@
 
 ### JavaScript
 
-* [JavaScript开发者应懂的33个概念](https://github.com/stephentian/33-js-concepts)
+* [《JavaScript开发者应懂的33个概念》](https://github.com/stephentian/33-js-concepts)
 
 ## 异步
 
