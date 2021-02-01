@@ -39,6 +39,7 @@
 * 源码分析
     * vue源码
     * react源码
+    * TypeScript
 * 项目管理
 * 面试
 * 社区/会议
@@ -86,7 +87,12 @@
 * [《vue源码分析》](https://github.com/answershuto/learnVue)
 
 * [《前端路由简介以及 vue-router 实现原理》](https://juejin.cn/post/6844903615283363848)
+    * 简单来说路由就是用来跟后端服务器进行交互的一种方式，通过不同的路径，来请求不同的资源，请求不同的页面是路由的其中一种功能。
 
 ### react源码
 
 * [《React技术揭秘》](https://react.iamkasong.com/)
+
+### TypeScript
+
+* [《深入理解 TypeScript》](https://github.com/jkchao/typescript-book-chinese)
