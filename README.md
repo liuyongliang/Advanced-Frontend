@@ -80,9 +80,9 @@
 
 ### 函数式编程
 
-* [简明 JavaScript 函数式编程——入门篇](https://juejin.cn/post/6844903936378273799#heading-31)
+* [《简明 JavaScript 函数式编程——入门篇》](https://juejin.cn/post/6844903936378273799#heading-31)
 
-* [函数式编程进阶：杰克船长的黑珍珠号](https://juejin.cn/post/6844904034260910094)
+* [《函数式编程进阶：杰克船长的黑珍珠号》](https://juejin.cn/post/6844904034260910094)
 
     * 函数式编程就像第三次工业革命，前两次分别为命令式编程（Imperative programming）和面向对象编程（Object Oriented Programming）。
 
