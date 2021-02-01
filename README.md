@@ -1,15 +1,22 @@
 # 高级前端知识架构
+* 异步
+    * async/await
+* 函数式编程
+    * 函数式编程
 * 服务器端渲染SSR
     * 指南
     * SSR框架
-* 异步
-    * async/await
 * 性能优化
 * 设计模式
 * 工程化
 * 浏览器
 * 网络
+    * OSI七层协议
+    * DNS解析
 * 协议
+    * TCP
+    * UDP
+
 * 测试
     * 单元测试
     * 自动化测试
@@ -23,6 +30,7 @@
 * 移动web开发
     * Hybrid
     * Flutter
+* 物联网
 * 安全
     * 抓包/代理
     * 监控技术
@@ -67,6 +75,17 @@
     * Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置。
 
 * [《webpack4+koa2+vue 实现服务器端渲染(详解)》](https://www.cnblogs.com/tugenhua0707/p/11048465.html)
+
+## 函数式编程
+
+### 函数式编程
+
+* [简明 JavaScript 函数式编程——入门篇](https://juejin.cn/post/6844903936378273799#heading-31)
+
+* [函数式编程进阶：杰克船长的黑珍珠号](https://juejin.cn/post/6844904034260910094)
+
+    * 函数式编程就像第三次工业革命，前两次分别为命令式编程（Imperative programming）和面向对象编程（Object Oriented Programming）。
+
 
 ## 代码质量
 
