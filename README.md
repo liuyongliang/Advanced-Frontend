@@ -47,6 +47,7 @@
     * 自动化测试
 * 前端标准/规划
 * 前端算法
+    * 递归
 * 可视化
     * d3
     * three.js
@@ -75,6 +76,18 @@
 * 项目管理
 * 面试
 * 社区/会议
+
+
+## 异步
+
+### async/await
+
+* [《async/await 详解》](https://blog.csdn.net/qq_24510455/article/details/101292914)
+
+    * promise的出现对于异步编程是一个跨越式的提高，但是往往在实际业务中存在很多更加复杂的流程，promise还是无法满足我们的需要，这时候在ES7中提出了async函数
+
+* [《为什么async/await关键字是如此重要》](http://jimliu.net/2018/09/11/why-we-need-async-await/)
+
 
 ## 服务器端渲染SSR
 
@@ -117,8 +130,6 @@
 
 * [《JavaScript开发者应懂的33个概念》](https://github.com/stephentian/33-js-concepts)
 
-## 异步
-
 ### async/await
 
 * [《async await 是把双刃剑》](https://github.com/dt-fe/weekly/blob/v2/055.%E7%B2%BE%E8%AF%BB%E3%80%8Aasync%20await%20%E6%98%AF%E6%8A%8A%E5%8F%8C%E5%88%83%E5%89%91%E3%80%8B.md)
@@ -136,6 +147,14 @@
 
 * [《React技术揭秘》](https://react.iamkasong.com/)
 
+* [《理解react生命周期，以及react生命周期的使用场景》](https://blog.csdn.net/qq_32899575/article/details/81699357)
+
 ### TypeScript
 
 * [《深入理解 TypeScript》](https://github.com/jkchao/typescript-book-chinese)
+
+## 前端算法
+
+### 递归
+
+* [《前端电商 sku 全排列的递归回溯算法实战》](https://github.com/sl1673495/blogs/issues/50)
