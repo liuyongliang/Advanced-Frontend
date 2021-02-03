@@ -1,5 +1,5 @@
 # 高级前端知识架构
-* 异步
+* [异步](https://github.com/liuyongliang/Advanced-Frontend#%E5%BC%82%E6%AD%A5)
     * 异步编程
     * async/await
     * Promise
@@ -19,13 +19,13 @@
     * 压缩
     * 内存
     * 渲染
-    * 用户行为
     * 资源加载
 * 监控
     * 异常捕获
     * 页面性能监控
     * 设备信息采集
     * 埋点
+    * 用户行为
 * 设计模式
     * 单体
     * 工厂
@@ -76,6 +76,7 @@
     * react源码
     * TypeScript
 * 项目管理
+* 前端发展趋势
 * 面试
 * 社区/会议
 
@@ -86,7 +87,7 @@
 
 * [《深入理解 JavaScript 异步系列》](https://www.cnblogs.com/wangfupeng1988/p/6513070.html)
 
-    * JS 是单线程的语言。运行的js ，可能会有大量的网络请求，而一个网络资源啥时候返回，这个时间是不可预估的。这种情况会出现等待卡顿。JS 对于这种场景就设计了异步 ———— 即，发起一个网络请求，就先不管这边了，先干其他事儿，网络请求啥时候返回结果，到时候再说。这样就能保证一个网页的流程运行。
+    * JS 是单线程的语言。运行的js ，可能会有大量的网络请求，而一个网络资源啥时候返回，这个时间是不可预估的。这种情况会出现等待卡顿。JS 对于这种场景就设计了异步 ———— 即，发起一个网络请求，就先不管这边了，先干其他事儿，网络请求啥时候返回结果，到时候再说。这样就能保证一个网页的流程运行
 
 * [《javascript 异步编程的5种方式》](https://blog.csdn.net/daydream13580130043/article/details/83105098)
 
@@ -97,6 +98,8 @@
     * promise的出现对于异步编程是一个跨越式的提高，但是往往在实际业务中存在很多更加复杂的流程，promise还是无法满足我们的需要，这时候在ES7中提出了async函数
 
 * [《为什么async/await关键字是如此重要》](http://jimliu.net/2018/09/11/why-we-need-async-await/)
+
+* [《async await 是把双刃剑》](https://github.com/dt-fe/weekly/blob/v2/055.%E7%B2%BE%E8%AF%BB%E3%80%8Aasync%20await%20%E6%98%AF%E6%8A%8A%E5%8F%8C%E5%88%83%E5%89%91%E3%80%8B.md)
 
 ### Promise
 
@@ -123,7 +126,7 @@
 * [《基于 Vue 的通用应用框架Nuxt.js》](https://www.nuxtjs.cn/guide)
 
 * [《轻量级的 React 服务端渲染应用框架NEXT.js》](https://www.nextjs.cn/)
-    * Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置。
+    * Next.js 为您提供生产环境所需的所有功能以及最佳的开发体验：包括静态及服务器端融合渲染、 支持 TypeScript、智能化打包、 路由预取等功能 无需任何配置
 
 * [《webpack4+koa2+vue 实现服务器端渲染(详解)》](https://www.cnblogs.com/tugenhua0707/p/11048465.html)
 
@@ -135,7 +138,7 @@
 
 * [《函数式编程进阶：杰克船长的黑珍珠号》](https://juejin.cn/post/6844904034260910094)
 
-    * 函数式编程就像第三次工业革命，前两次分别为命令式编程（Imperative programming）和面向对象编程（Object Oriented Programming）。
+    * 函数式编程就像第三次工业革命，前两次分别为命令式编程（Imperative programming）和面向对象编程（Object Oriented Programming）
 
 * [《前端开发js函数式编程真实用途体现在哪里？》](https://www.zhihu.com/question/59871249)
 
@@ -163,10 +166,46 @@
 
 * [《使用SonarTS创建进行typescript代码质量扫描》](https://blog.csdn.net/liumiaocn/article/details/102670480/)
 
+## 性能优化
 
-### async/await
+### 调试工具
 
-* [《async await 是把双刃剑》](https://github.com/dt-fe/weekly/blob/v2/055.%E7%B2%BE%E8%AF%BB%E3%80%8Aasync%20await%20%E6%98%AF%E6%8A%8A%E5%8F%8C%E5%88%83%E5%89%91%E3%80%8B.md)
+* [《Chrome 开发者工具》](https://developers.google.cn/web/tools/chrome-devtools/)
+
+### H5优化
+
+* [《前端H5性能优化》](https://blog.csdn.net/likeky/article/details/103953017)
+
+### 缓存
+
+* [《前端资源缓存详解》](https://segmentfault.com/a/1190000020786519)
+
+* [《promise实现前端缓存》](https://www.dsiab.com/1586697823556)
+
+### 压缩
+
+* [《前端性能优化：gzip压缩文件传输数据》](https://www.cnblogs.com/zs-note/p/9556390.html)
+
+### 内存
+
+* [《前端的角度讲讲内存》](https://zhuanlan.zhihu.com/p/142354342)
+
+    * 在JS中具有自动垃圾回收机制，对于前端开发来说，内存空间并不是被常常提起的概念，容易被大家忽视。很多东西的原理与内存息息相关，如：闭包、深签拷贝、执行上下文等，要弄清楚这些，必须对内存空间有清晰的认知才行。
+
+* [《前端内存泄露问题》](https://blog.csdn.net/sunycnb/article/details/108908917)
+
+* [《内存空间详细图解》](https://www.jianshu.com/p/996671d4dcc4)
+
+### 渲染
+
+* [《深入浅出浏览器渲染原理》](https://zhuanlan.zhihu.com/p/53913989)
+
+### 资源加载
+
+* [《使用 Preload&Prefetch 优化前端页面的资源加载》](https://mp.weixin.qq.com/s/DaQkyjFh6_LXEO5X7pmuWg)
+
+    * 对于前端页面来说，静态资源的加载对页面性能起着至关重要的作用。本文将介绍浏览器提供的两个资源指令-preload/prefetch，它们能够辅助浏览器优化资源加载的顺序和时机，提升页面性能
+
 
 ## 源码分析
 
@@ -198,3 +237,9 @@
 ### 脚手架
 
 * [《如何写一个标准的前端脚手架》](https://zhuanlan.zhihu.com/p/105846231)
+
+## 前端发展趋势
+
+### 前端发展趋势
+
+* [《2021年前端发展预测》](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247506245&idx=1&sn=e498d49616ac8d9ae446ad9cb3ca5658&chksm=f9526c06ce25e5104940c19c42e49a54bb8e3d646b645d689ce0a5b7fc0e6e5ccf4ce05b163e&scene=132#wechat_redirect)
