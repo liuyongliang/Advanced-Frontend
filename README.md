@@ -25,7 +25,6 @@
     * 页面性能监控
     * 设备信息采集
     * 埋点
-    * 用户行为
 * 设计模式
     * 单体
     * 工厂
@@ -236,8 +235,24 @@
 
 * [《网易云音乐大前端团队关于前端组件化埋点的实践》](https://mp.weixin.qq.com/s?src=11&timestamp=1612416223&ver=2869&signature=oWTAlFs0MSGjEU9BL28*vm4vOY54m32JcZEtWAGxcDTrIbeyTs1MXcqkSEXgcA1zmlLCrw3YKd4YPpKMETg0g9rNwaJnzQdNCpJJDMlRNXSfR7M33yzy896uO1q15Vt5&new=1)
 
+## 设计模式
 
-### 用户行为
+### 单体
+### 工厂
+### 迭代器
+### 装饰者
+### 策略
+### 外观
+### 代理
+### 中介者
+### 观察者
+
+## 工程化
+
+### 脚手架
+
+* [《如何写一个标准的前端脚手架》](https://zhuanlan.zhihu.com/p/105846231)
+
 
 ## 前端标准/规划
 
@@ -269,12 +284,6 @@
 ### 递归
 
 * [《前端电商 sku 全排列的递归回溯算法实战》](https://github.com/sl1673495/blogs/issues/50)
-
-## 工程化
-
-### 脚手架
-
-* [《如何写一个标准的前端脚手架》](https://zhuanlan.zhihu.com/p/105846231)
 
 ## 前端发展趋势
 
