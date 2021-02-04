@@ -52,6 +52,7 @@
     * 单元测试
     * 自动化测试
 * 前端标准/规划
+	* 骨架屏 
 * 前端算法
     * 递归
 * 可视化
@@ -206,6 +207,43 @@
 
     * 对于前端页面来说，静态资源的加载对页面性能起着至关重要的作用。本文将介绍浏览器提供的两个资源指令-preload/prefetch，它们能够辅助浏览器优化资源加载的顺序和时机，提升页面性能
 
+## 监控
+
+### 异常捕获
+
+* [《JavaScript错误处理完全指南》](https://mp.weixin.qq.com/s?src=11&timestamp=1612415201&ver=2869&signature=blR9eVa4RXFibU5Qtc1*OFoBVG6AI-IH*nUrjQUztd9fxNqUI17qjq9wDWezDQS*NNUnSIdF5iS9qYMGm8WqUd6*7U9gBRlvgnqtU*AFJ6Dhaza6OM0DI8ey3LPTxJmf&new=1)
+	* JavaScript 中的一个错误是一个对象，错误会被抛出以暂停程序
+
+* [《前端JavaScript 常见的报错及异常捕获与处理方法》](https://mp.weixin.qq.com/s?src=11&timestamp=1612410621&ver=2869&signature=zIc0WRGzvVyFm7R64MAdiIZ2HvPMXvrbbXniBqjUQmRmpBmDalx9jFxBy8ReoCAAZMUeeo0cxKMP6OWSsYhVom6gw3FMnmNCKKQNivQooUygkZEOwKKIL*XYAV5QB89U&new=1)
+
+* [《前端中 try-catch 捕获不到哪些异常和错误》](https://mp.weixin.qq.com/s?src=11&timestamp=1612415017&ver=2869&signature=bOofrkhZqbN7UNuEIBbXWTbovT9XFvtfAdFYlL*3ChfKQY*4mHNsR3nzwI7ozoJ9yHwISVPujkV01C*zIyLrEzYzYxJysx-TFakVVNdKpFXojO0UynIgoUqD2TQq-QU8&new=1)
+
+	* 在开发过程中，我们的目标是 0error，0warning。但有很多因素并不是我们可控的，为了避免某块代码的错误，影响到其他模块或者整体代码的运行，我们经常会使用try-catch模块来主动捕获一些异常或者错误
+
+### 页面性能监控
+
+* [《10分钟彻底搞懂前端页面性能监控》](https://zhuanlan.zhihu.com/p/82981365)
+
+* [《Web 前端页面性能监控指标》](https://www.cnblogs.com/xgqfrms/p/13602022.html)
+
+* [《 FrontJS 快你一步捕捉 Bug》](https://www.frontjs.com/)
+	* FrontJS 提供准确、实时、完整的程序错误、资源加载、网络请求信息及网站性能监测报告，帮助开发者快速追踪网站故障，及时修复问题，维护网站质量，指导改善用户体验。 
+
+### 埋点
+
+* [《前端埋点统一接入方案实践》](https://mp.weixin.qq.com/s?src=11&timestamp=1612416083&ver=2869&signature=yKLfRDS89eiDh9nULkcStP*hOlk7AOyfQB41LvVqQ494aD5hFuiWdGK9UYGiOG5lCRuqe-Jytei7sR*LV69VYhQJQ5rYiUpS9YRGv-GzbZFGi8CdMeDxmjoEcUAYqj67&new=1)
+	* 关于埋点，作为用户行为过程数据采集的一种方式，被广泛用于各公司的站点中。它不仅可以收集页面浏览量，还能对访问用户的时间、地点、操作路径等用户行为进行多维度记录
+
+* [《网易云音乐大前端团队关于前端组件化埋点的实践》](https://mp.weixin.qq.com/s?src=11&timestamp=1612416223&ver=2869&signature=oWTAlFs0MSGjEU9BL28*vm4vOY54m32JcZEtWAGxcDTrIbeyTs1MXcqkSEXgcA1zmlLCrw3YKd4YPpKMETg0g9rNwaJnzQdNCpJJDMlRNXSfR7M33yzy896uO1q15Vt5&new=1)
+
+
+### 用户行为
+
+## 前端标准/规划
+
+### 骨架屏 
+
+* [《一个简易的预渲染自动骨架屏方案》](https://zhuanlan.zhihu.com/p/166009071)
 
 ## 源码分析
 
