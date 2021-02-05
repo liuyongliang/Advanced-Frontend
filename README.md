@@ -26,15 +26,9 @@
     * 设备信息采集
     * 埋点
 * 设计模式
+	 * 概念
     * 单体
     * 工厂
-    * 迭代器
-    * 装饰者
-    * 策略
-    * 外观
-    * 代理
-    * 中介者
-    * 观察者
 * 工程化
     * 构建工具
     * webpack
@@ -237,17 +231,30 @@
 
 ## 设计模式
 
-### 单体
-### 工厂
-### 迭代器
-### 装饰者
-### 策略
-### 外观
-### 代理
-### 中介者
-### 观察者
+### 概念
+
+* [《深入理解JavaScript的设计模式》](https://mp.weixin.qq.com/s?src=11&timestamp=1612489338&ver=2871&signature=KFMlX3Mr3ajZfuJ1LLbh-LsuDQ8w9iAFCRIIsRW0zK4YozWJ5bbwRgcTd4i5Fo*v-76TGd7n2YFqZV6dSHj9s2SUzTNrtPvf4YW5F3PjDKXPzEd5jFzKrO*cKLbyt22n&new=1)
+	* 在软件工程中，设计模式是软件设计中常见问题的可重用解决方案。设计模式代表了经验丰富的软件开发人员所使用的最佳实践。设计模式可以看作是编程模板
+
+* [《JavaScript设计模式经典-面向对象中六大原则》](https://mp.weixin.qq.com/s?src=11&timestamp=1612489338&ver=2871&signature=513OASntwkXcghheaX9ciMwkkrFlDTK*ueVZ7BFY-VfJkl5MlxycRuqNrdTviRUUWb548PBFN4KY5GN3jC*uZY5pSLmiypKKkz8oT4ZwIBpruHdwN*s9wE28Y4MdnON2&new=1)
+
+* [《介绍几个JavaScript设计模式及场景应用》](https://mp.weixin.qq.com/s?src=11&timestamp=1612489692&ver=2871&signature=kxq9X0tE0C42bPz9nFFhK4qxzZ7LOggpalvHgR76Mg-8cQiezkrGFNEQgEZhpnmZc8ilBEegc5TA2q5vRr7QW4Y-GeqR9cXh5s0SK-0p-sSvS*Mj9TXeHDWCBF65AS8X&new=1)
+
+### 单体模式
+
+* [《JavaScript设计模式——单体模式》](https://mp.weixin.qq.com/s?src=11&timestamp=1612489113&ver=2871&signature=l8PtIf29kNUDTEfYQIwCw*xvieBkVLJ32jDufMWLxtUfzY4azRwzp11X4tC4aFbf8pxnmWFxGRMF6gYc5i0Cpdv-YehRqO40I*HlCvkBimAOPGEdoNK0XpfyQbn3EWFl&new=1)
+	* 单体模式(Singleton Pattern)的思想在于保证一个特定类仅有一个实例，即不管使用这个类创建多少个新对象，都会得到与第一次创建的对象完全相同。
+
+### 工厂模式
+
+* [《JavaScript设计模式——工厂模式》](https://mp.weixin.qq.com/s?src=11&timestamp=1612489200&ver=2871&signature=U2v5PFefC0EgXRYE0aT1GDPWGRJlMFlVWvBIQ1SZ-WqCpmavrX8qxoxs9w36qx4*QHCn8WWc6BO3KPI74jP-ztBSXsijXwaQI5lZwek-HfN737YFXsrarw-RI-odxBr3&new=1)
+
 
 ## 工程化
+
+### 构建工具
+
+### webpack
 
 ### 脚手架
 
