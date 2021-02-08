@@ -25,6 +25,7 @@
     * 页面性能监控
     * 设备信息采集
     * 埋点
+    	 * 用户行为
 * 设计模式
 	 * 概念
     * 单体
@@ -104,6 +105,8 @@
 
 * [《深入理解 ES6 Promise》](https://segmentfault.com/a/1190000020934044)
 
+* [《Promise链式调用原理 》](https://github.com/LuckyWinty/blog/issues/3)
+
 
 ## 服务器端渲染SSR
 
@@ -118,6 +121,8 @@
 * [《从头开始，彻底理解服务端渲染原理》](https://blog.csdn.net/qq_29438877/article/details/98477160)
 
 * [《精读前后端渲染之争》](https://github.com/dt-fe/weekly/blob/v2/003.%E7%B2%BE%E8%AF%BB%E5%89%8D%E5%90%8E%E7%AB%AF%E6%B8%B2%E6%9F%93%E4%B9%8B%E4%BA%89.md)
+
+* [《带你五步学会Vue SSR》](https://mp.weixin.qq.com/s/phZ8jFVrAwcCfuNlZDFG1w)
  
 ### SSR框架
 * [《Vue.js 服务器端渲染指南》](https://ssr.vuejs.org/zh/)   
@@ -235,6 +240,10 @@
 	* 关于埋点，作为用户行为过程数据采集的一种方式，被广泛用于各公司的站点中。它不仅可以收集页面浏览量，还能对访问用户的时间、地点、操作路径等用户行为进行多维度记录
 
 * [《网易云音乐大前端团队关于前端组件化埋点的实践》](https://mp.weixin.qq.com/s?src=11&timestamp=1612416223&ver=2869&signature=oWTAlFs0MSGjEU9BL28*vm4vOY54m32JcZEtWAGxcDTrIbeyTs1MXcqkSEXgcA1zmlLCrw3YKd4YPpKMETg0g9rNwaJnzQdNCpJJDMlRNXSfR7M33yzy896uO1q15Vt5&new=1)
+
+### 用户行为
+
+* [《用户行为帧记录》](https://github.com/LuckyWinty/blog/blob/master/markdown/other/%E7%94%A8%E6%88%B7%E8%A1%8C%E4%B8%BA%E5%B8%A7%E8%AE%B0%E5%BD%95.md)
 
 ## 设计模式
 
@@ -398,6 +407,10 @@
 
 * [《深入理解 TypeScript》](https://github.com/jkchao/typescript-book-chinese)
 
+### JavaScript
+
+* [《Javascript 深拷贝》](https://juejin.cn/post/6926172825757679624)
+
 ## 项目管理
 
 ## 前端发展趋势
@@ -407,5 +420,7 @@
 * [《2021年前端发展预测》](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247506245&idx=1&sn=e498d49616ac8d9ae446ad9cb3ca5658&chksm=f9526c06ce25e5104940c19c42e49a54bb8e3d646b645d689ce0a5b7fc0e6e5ccf4ce05b163e&scene=132#wechat_redirect)
 
 ## 面试
+
+* [《今天聊：你为什么迟迟进不去大厂》](https://juejin.cn/post/6924860368393076749)
 
 ## 社区/会议
