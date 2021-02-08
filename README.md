@@ -33,6 +33,15 @@
     * 构建工具
     * webpack
     * 脚手架
+* 前端标准/实践
+	*  前端标准 
+	* 骨架屏 
+* 前端算法
+	* 递归
+	* 冒泡
+	* 动态规划
+	* 二分查找
+	* 链表和数组
 * 浏览器
     * 自动化
 * 网络
@@ -44,10 +53,6 @@
 * 测试
     * 单元测试
     * 自动化测试
-* 前端标准/规划
-	* 骨架屏 
-* 前端算法
-    * 递归
 * 可视化
     * d3
     * three.js
@@ -170,6 +175,8 @@
 
 * [《前端H5性能优化》](https://blog.csdn.net/likeky/article/details/103953017)
 
+* [《中高级前端必须注意的40条移动端H5坑位指南 | 网易三年实践》](https://juejin.cn/post/6921886428158754829)
+
 ### 缓存
 
 * [《前端资源缓存详解》](https://segmentfault.com/a/1190000020786519)
@@ -254,18 +261,123 @@
 
 ### 构建工具
 
+*  [《从Npm Script到Webpack，6种常见的前端构建工具对比》](https://blog.csdn.net/broadview2006/article/details/79091719)
+
 ### webpack
+
+* [《Webpack4打包机制原理解析》](https://mp.weixin.qq.com/s?src=11&timestamp=1612747768&ver=2877&signature=in2-reLaVXdYVNA7WWISwveiX-xOYgYydmaQb81Y5iJWA-Clf6nlXSGeyo2Wlml8odgYefLeMQgqT6Kf*2XkKlEZ4IVf1mIaYWvbd3QOKW3zLuxEWopeGjaJnIZXbsjO&new=1)
+	* webpack是一个打包模块化 JavaScript 的工具，在 webpack里一切文件皆模块，通过 Loader 转换文件，通过 Plugin 注入钩子，最后输出由多个模块组合成的文件。webpack专注于构建模块化项目。
+
+* [《从webpack4打包文件说起》](https://cloud.tencent.com/developer/article/1172453)
+
+* [《揭秘webpack插件的工作原理》](https://mp.weixin.qq.com/s?src=11&timestamp=1612747768&ver=2877&signature=YdDKUzIEqCOwhJJ1Z56I2YE*7V9x4oIh6s9dgokEtuQdPW8UYFj963hepTbjjKd9pGWHzj3P2JX6n4vUPDlsdttmyx6yzjROt7AVGHNsf0bb9OSZTZkmziQXXM6Ne*5Y&new=1)
+
+* [《Webpack5 新特性业务落地实战》](https://juejin.cn/post/6924258563862822919)
+
 
 ### 脚手架
 
 * [《如何写一个标准的前端脚手架》](https://zhuanlan.zhihu.com/p/105846231)
 
 
-## 前端标准/规划
+## 前端标准/实践
+
+### 前端标准
+
+* [《Code Guide》](http://alloyteam.github.io/CodeGuide/)
+	* 通过分析github代码库总结出来的工程师代码书写习惯
+
+* [《JavaScript代码规范（Airbnb）》](https://github.com/linpenghui958/note/blob/master/js%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.md)
+
+* [《【译】Google 官方文章——如何去做coder review》](https://juejin.cn/post/6844903949347061768)
+	*  CR(Code review)主要目的在于确保Google 的代码库代码质量越来越好。而所有相关的工具与流程皆是因应这个目的而生。为达到此目的，势必需要做出一连串的权衡与取舍
+
+* [《字节研发设施下的 Git 工作流》](https://juejin.cn/post/6875874533228838925)
+
+	* Git 提供了丰富的分支策略和工作流方式，我们在深入学习业界 Git 工作流时，每种工作流都设计的非常好，似乎都能运用到团队实践
 
 ### 骨架屏 
 
 * [《一个简易的预渲染自动骨架屏方案》](https://zhuanlan.zhihu.com/p/166009071)
+
+## 前端算法
+
+### 递归
+
+*  [《递归》](https://mp.weixin.qq.com/s?src=11&timestamp=1612749261&ver=2877&signature=YwnPW8Lm2ohk7fbjf54ovzJUJfg9p77-V5IahOQbMoGq01irmIMM-QmHlSDAOwSKzLScjWEnIFXdVr4*tZKba-jq5-BurWDu*dBkSbsjtCE1RI8H7NxTdIMEFTxHwvMP&new=1)
+
+* [《前端电商 sku 全排列的递归回溯算法实战》](https://github.com/sl1673495/blogs/issues/50)
+
+### 冒泡
+
+*  [《冒泡排序》](https://juejin.cn/post/6910033657121996808)
+
+### 动态规划
+
+*  [《动态规划》](https://juejin.cn/post/6844903949795852295)
+
+### 二分查找
+
+*  [《二分查找》](https://github.com/USTB-musion/fee-skills/issues/21)
+
+### 链表和数组
+
+* [《链表和数组》](https://github.com/USTB-musion/fee-skills/issues/20)
+
+## 浏览器
+
+### 自动化
+
+* [《提高 Web 自动化效率：建立一个用于 Web 自动化的浏览器环境》](https://mp.weixin.qq.com/s?src=11&timestamp=1612749613&ver=2877&signature=MJD-qP0zJhtrFrhTmEbdkcFUOw*yvWJAqWSvgLkTnB35y9GmUGFPG5mdBukDnU60y4CWwrnOdtJDNESmsgk7YNhbDBawUJV*3NOtp8wqltAOAXJzwwXk4KFFGOdO36yp&new=1)
+
+## 网络
+
+### OSI七层协议
+
+### DNS解析
+
+## 协议
+
+### TCP
+
+### UDP
+
+## 测试
+
+### 单元测试
+
+### 自动化测试
+
+## 可视化
+
+### d3
+
+### three.js
+
+## NodeJS
+
+## 移动web开发
+
+### Hybrid
+
+### Flutter
+
+## 物联网
+
+## 安全
+
+### 抓包/代理
+
+### 监控技术
+
+## 机器学习
+
+### TensorFlow
+
+## 客户端开发
+### electron
+### nw.js
+### chrome插件
 
 ## 源码分析
 
@@ -286,14 +398,14 @@
 
 * [《深入理解 TypeScript》](https://github.com/jkchao/typescript-book-chinese)
 
-## 前端算法
-
-### 递归
-
-* [《前端电商 sku 全排列的递归回溯算法实战》](https://github.com/sl1673495/blogs/issues/50)
+## 项目管理
 
 ## 前端发展趋势
 
 ### 前端发展趋势
 
 * [《2021年前端发展预测》](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247506245&idx=1&sn=e498d49616ac8d9ae446ad9cb3ca5658&chksm=f9526c06ce25e5104940c19c42e49a54bb8e3d646b645d689ce0a5b7fc0e6e5ccf4ce05b163e&scene=132#wechat_redirect)
+
+## 面试
+
+## 社区/会议
