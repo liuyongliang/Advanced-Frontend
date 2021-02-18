@@ -77,6 +77,7 @@
     * [TypeScript](https://github.com/liuyongliang/Advanced-Frontend#typescript-1)
     * [JavaScript](https://github.com/liuyongliang/Advanced-Frontend#javascript-1)
 * [项目管理](https://github.com/liuyongliang/Advanced-Frontend#%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86)
+    * [项目管理]()
 * [前端发展趋势](https://github.com/liuyongliang/Advanced-Frontend#%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF)
 	* [前端发展趋势](https://github.com/liuyongliang/Advanced-Frontend#%E5%89%8D%E7%AB%AF%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF-1)
 * [面试](https://github.com/liuyongliang/Advanced-Frontend#%E9%9D%A2%E8%AF%95)
@@ -467,6 +468,8 @@
 
 ## 项目管理
 
+### 项目管理
+	
 ## 前端发展趋势
 
 ### 前端发展趋势
@@ -478,3 +481,5 @@
 * [《今天聊：你为什么迟迟进不去大厂》](https://juejin.cn/post/6924860368393076749)
 
 ## 社区/会议
+
+### 社区/会议
