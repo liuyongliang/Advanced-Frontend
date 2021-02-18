@@ -57,10 +57,11 @@
     * [d3](https://github.com/liuyongliang/Advanced-Frontend#d3)
     * [three.js](https://github.com/liuyongliang/Advanced-Frontend#threejs)
 * [NodeJS](https://github.com/liuyongliang/Advanced-Frontend#nodejs)
+	* [原理]()
+	* [V8引擎]()
 * [移动web开发](https://github.com/liuyongliang/Advanced-Frontend#%E7%A7%BB%E5%8A%A8web%E5%BC%80%E5%8F%91)
     * [Hybrid](https://github.com/liuyongliang/Advanced-Frontend#hybrid)
     * [Flutter](https://github.com/liuyongliang/Advanced-Frontend#flutter)
-* [物联网](https://github.com/liuyongliang/Advanced-Frontend#%E7%89%A9%E8%81%94%E7%BD%91)
 * [安全](https://github.com/liuyongliang/Advanced-Frontend#%E5%AE%89%E5%85%A8)
     * [抓包/代理](https://github.com/liuyongliang/Advanced-Frontend#%E6%8A%93%E5%8C%85%E4%BB%A3%E7%90%86)
     * [监控技术](https://github.com/liuyongliang/Advanced-Frontend#%E7%9B%91%E6%8E%A7%E6%8A%80%E6%9C%AF)
@@ -386,32 +387,64 @@
 
 ### d3
 
+* [《D3 源代码解构》](https://segmentfault.com/a/1190000005893218)
+	* D3是一个数据可视化的javascript库，相对于highchart和echarts专注图表可视化的库，D3更适合做大数据处理的可视化，它只提供基础的可视化功能，灵活而丰富的接口让我们能开发出各式各样的图表。
+
+
 ### three.js
 
+* [《图解WebGL&Three.js工作原理》](cnblogs.com/wanbo/p/6754066.html)
+
 ## NodeJS
+
+### 原理
+	
+* [《基于nodejs线上代码热部署原理与实现》](https://mp.weixin.qq.com/s?src=11&timestamp=1613615008&ver=2897&signature=baxlR6XP4xlDzXBvxo96amHVmm75qNrQKZ9yPM83jB75Mut-iSjElc95Z515GEc*PHn8rJzroJaF-c*YYT418V9bt78I1vkqNTNibvk97*bd4AmQc5TxSmGjXkTUA-bK&new=1)
+
+### V8引擎
+
+* [《JavaScript V8引擎》](https://www.jianshu.com/p/81f6ded64ab2)
 
 ## 移动web开发
 
 ### Hybrid
 
+* [《浅谈Hybrid技术的设计与实现》](https://www.cnblogs.com/yexiaochai/p/4921635.html)
+
 ### Flutter
 
-## 物联网
+* [《Flutter 内幕：Flutter 在内部是如何工作的？》](https://mp.weixin.qq.com/s?src=11&timestamp=1613615989&ver=2897&signature=dCN-CbiQrUiHgVfzH14ZdyaU3Tha4jaVN1Nf0e11i9dtKBNPt43zKBgwY6OJuQMaKZBjL6N3S6Qn-WECcCvXdeQHc5iWgH4iA7n*xYnOQ4E-Hhzb-klYqXCSponjmTks&new=1)
 
 ## 安全
 
 ### 抓包/代理
 
+* [《使用 Nginx 代理解决前端跨域问题》](https://juejin.cn/post/6867142911419662344)
+
 ### 监控技术
+
+* [《深入了解前端监控原理》](https://blog.csdn.net/weixin_46837985/article/details/113155432)
 
 ## 机器学习
 
 ### TensorFlow
 
+* [《基于TensorFlow.js的JavaScript机器学习》](https://mp.weixin.qq.com/s?src=11&timestamp=1613616406&ver=2897&signature=f3k-Y9SXcG*BMBRCzc7p3GnJzSL-AqahD-6uALC976AmmzUftNtMU1Ez-Slj5sLBtu-lfU5BXAXcSSuBfCZTzkUnkdGth4jgPycBkZB2EEl3fSbsKKoE779UK*s7D0xy&new=1)
+
 ## 客户端开发
+
 ### electron
+
+* [《Electron架构揭秘》](https://juejin.cn/post/6888686758495453191)
+
 ### nw.js
+
+* [《轻量级桌面应用开发的捷径——nw.js》](https://mp.weixin.qq.com/s?src=3&timestamp=1613616649&ver=1&signature=324E2-tviiQbBlXX4s6D4uYLxfNNnv91Ty8OuiJMiih2AXEDDwnqAsGr-EGasBlUM8Tc3tA6k3HiVq1P3hCJ9fRlCaXo3whF2PCbU9fAYMDxgXxeWVfNDzdSp*GLMhS8hit7oeXeL2DJdo-8sOKlcg==)
+
 ### chrome插件
+
+* [《Chrome插件开发指南》](https://mp.weixin.qq.com/s?src=11&timestamp=1613616724&ver=2897&signature=WC*jrj9rq5JU-6VY-JLe78Gs7S-BXD*OTN3lxSQ86*ouqbe*JHbgxjjh58gD*GAyXT8iOsLuOy6BLdUq*usHA5LvTauMXUkmAmLIVaN8N9b4F8tzzjFKY7OSJzSqKe*3&new=1)
+	* Chrome插件是一个用Web技术开发、用来增强浏览器功能的软件。它其实就是一个由HTML、CSS、JS、图片等资源组成的一个.crx后缀的压缩包
 
 ## 源码分析
 
