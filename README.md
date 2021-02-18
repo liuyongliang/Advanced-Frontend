@@ -344,20 +344,44 @@
 
 ### OSI七层协议
 
+* [《OSI七层模型各层知识解析》](https://mp.weixin.qq.com/s?src=11&timestamp=1613612607&ver=2897&signature=IkCP6p1Wo89YzXGMty76fmIk*gObwGCl97JbaXWxmWw*tidxSrr*YrA6c8bbv2-*q0LCEv8T9RJt9wUSaOypei*tbkRok*GeDxM1*dwC6gp**CdOnyYN0nDy5P4BNyxs&new=1)
+	* 简单理解其实就是为计算机与计算机链接所制定的通信框架。这个模型分为七层。
+
 ### DNS解析
+
+* [《DNS解析过程详解》](https://mp.weixin.qq.com/s?src=3&timestamp=1613612737&ver=1&signature=DTwxiUbp30VkSZReN3yx8352162Bq7AgMgs1XhjGVU9fj-By9-MVynFIkRxo66WZwAl*ysBh4thmNMA1ff9BDpszjWhw7GwruDl6Cp*ibHyaHC*6YfwpRD4AzecKtQwatIUrAOfv3oIBfbrVASTKb3kwPPqbPHgeLNn6Lw*nRUY=)
 
 ## 协议
 
 ### TCP
+* [《TCP详解》](https://juejin.cn/post/6844903927943692296)
+	* 概念
+		* 面向连接、可靠的基于字节流的传输协议。
+		* 将应用层的的数据分割成报文段并发送给目标节点的 TCP 层
+		* 每个数据包都有相对应的序号，对方收到后就发送 ACK 确认，未收到就重传
+		* 使用校验和来检测传输过程中是否出现错误
+* [《你管这破玩意儿叫TCP？》](https://mp.weixin.qq.com/s?src=11&timestamp=1613612790&ver=2897&signature=a4Pem0COKDDMMLz-eqoKEiDDd4kbTur34*eukEIVS9mskhaEywF*LfsXkM2Zsjwo-Bx9p-UjtoBLv82UtsvMj1mdovpGSuwHJCuIbXu41YmerPrLKE24dlhov*8nzQ5N&new=1)
 
 ### UDP
+
+* [《重学网络系列之（UDP）》](https://juejin.cn/post/6920029124690411528)
 
 ## 测试
 
 ### 单元测试
 
+* [《前端单元测试》](jianshu.com/p/ba76cfcac72c)
+
+* [《关于前端开发谈谈单元测试》](https://segmentfault.com/a/1190000000317146)
+
 ### 自动化测试
 
+* [《前端自动化测试浅析》](https://mp.weixin.qq.com/s?src=11&timestamp=1613614351&ver=2897&signature=29WIJJjZr7FS5rhJa8RPXeFma*MLkW9GISnjub22qbOrZFPf-Z9FetDX6*n-rjXr9PLv7dVJLCOzn*B1PdiVtT0gNl*lGC4YhIaq8GPSjnA63b3dcVBQROeJRnv1sJ4q&new=1)
+
+* [《前端自动化测试探索》](http://fex.baidu.com/blog/2015/07/front-end-test/)
+	* 测试是完善的研发体系中不可或缺的一环。前端同样需要测试，你的css改动可能导致页面错位、js改动可能导致功能不正常。由于前端偏向GUI软件的特殊性，尽管测试领域工具层出不穷，在前端的自动化测试上面却实施并不广泛，很多人依旧以手工测试为主
+
+	
 ## 可视化
 
 ### d3
