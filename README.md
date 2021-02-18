@@ -471,6 +471,9 @@
 ## 项目管理
 
 ### 项目管理
+
+* [前端项目如何管理](https://segmentfault.com/a/1190000018207680?utm_source=tag-newest)
+    * 前端项目的管理分为两个维度：项目内的管理与多项目之间的管理
 	
 ## 前端发展趋势
 
@@ -487,3 +490,5 @@
 ## 社区/会议
 
 ### 社区/会议
+
+* [MDN Web](https://developer.mozilla.org/zh-CN/docs/Web)
